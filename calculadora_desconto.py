@@ -1,4 +1,7 @@
+
 categoria = input("Qual a categoria (vip ou comum)?")
+while categoria != "vip" and categoria != "comum":
+    categoria = input("Categoria inválida. Digite vip ou comum: ")
 compra = float(input("Qual o valor da compra? "))
 if categoria == "vip":
     if compra > 200:
